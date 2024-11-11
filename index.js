@@ -16,7 +16,8 @@ function restar() {
   parrafo.innerHTML = cuenta;
 }
 
-cuenta = document.querySelector(".cantidad");
+let cuenta = document.querySelector(".cantidad");
+
 
 totalSpan = document.querySelector(".valor-total");
 totalSpan.innerHTML = precio * cuenta;
